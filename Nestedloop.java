@@ -43,18 +43,29 @@ public class Nestedloop {
     //      }
     //                    System.out.println(" ");
     // }
-     for(int i=1 ;i<=a;i--)
-              {
-               for(int j=1;j<=a-i;j++){
-                    System.out.print(" ");     //printing reverse Triangle numbers
-                                                //different method using formula              }
-               }
-                for(int j=1;j<=(i*2-1);j++){
-                    System.out.print("*");
-                 }
-                       System.out.println();
+    //  for(int i=1 ;i<=a;i--)
+    //           {
+    //            for(int j=1;j<=a-i;j++){
+    //                 System.out.print(" ");     //printing reverse Triangle numbers
+    //                                             //different method using formula              }
+    //            }
+    //             for(int j=1;j<=(i*2-1);j++){
+    //                 System.out.print("*");
+    //              }
+    //                    System.out.println();
                  
-    }
+    // }
+     for(int i=1 ;i<=a;i++)
+             {
+                for(int j=1;j<=a-i;j++){
+                     System.out.print(" ");     //printing  invertedTriangle swith space
+                                                 //         }
+          }for(int j=1;j<=i;j++){
+                     System.out.print("#");
+            }
+            System.out.println();
+                        
+     }
     
  }
 }
